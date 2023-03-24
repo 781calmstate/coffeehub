@@ -32,7 +32,7 @@ const PostIdPage = () => {
           <h1>
             {post.id}. {post.title}
           </h1>
-          <p>{post.body}</p>
+          <div>{post.body}</div>
         </div>
       )}
       {isComsLoading ? (
@@ -41,14 +41,14 @@ const PostIdPage = () => {
         <div>
           <h1>Comments:</h1>
           {/* decompose */}
-          <p>
+          <div>
             {coms.map((comm) => (
-              <div>
+              <div key={comm.id}>
                 <h3>{comm.email}</h3>
                 <div>{comm.body}</div>
               </div>
             ))}
-          </p>
+          </div>
         </div>
       )}
     </div>
