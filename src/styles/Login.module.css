@@ -1,0 +1,35 @@
+.content {
+  margin-top: 100px;
+}
+
+.title {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form {
+  width: 400px;
+}
+
+.inputwrap {
+  position: relative;
+}
+
+.inputwrap svg {
+  display: block;
+  position: absolute;
+  z-index: 50;
+  left: 4px;
+  top: 12px;
+}
+
+.button {
+  width: 100%;
+  color: white;
+  background-color: #665151;
+  padding: 8px 12px;
+  margin-top: 12px;
+  font-size: 15px;
+  line-height: 113%;
+  border-radius: 3px;
+}

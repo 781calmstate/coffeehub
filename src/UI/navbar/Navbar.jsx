@@ -1,7 +1,6 @@
 import React, { useContext } from 'react';
 import { Link, Outlet } from 'react-router-dom';
 import { AuthContext } from '../../context';
-import MyButton from '../button/MyButton';
 import cl from './Navbar.module.css';
 
 const Navbar = () => {
