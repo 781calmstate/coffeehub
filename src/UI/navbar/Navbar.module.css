@@ -1,0 +1,30 @@
+.navbar {
+  height: 120px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.button {
+  padding: 10px 23px;
+  line-height: 150%;
+  font-size: 19px;
+  background-color: inherit;
+  border: 1px solid black;
+}
+
+.menu {
+  display: flex;
+}
+
+.link:not(:last-child) {
+  margin-right: 30px;
+}
+
+.link a {
+  color: black;
+  font-size: 17px;
+  line-height: 150%;
+}

@@ -37,6 +37,7 @@ body {
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  background-color: rgb(231, 186, 160);
 }
 
 input,
@@ -89,10 +90,13 @@ h6 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .App {
   width: 800px;
+  margin: 0 auto;
 }
 
 .post {
@@ -143,16 +147,4 @@ h6 {
 .page__current {
   border: 2px solid orange;
   font-weight: bold;
-}
-
-.navbar {
-  height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  margin: 0 auto;
-}
-
-.navbar__links {
-  display: flex;
 }
