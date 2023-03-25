@@ -44,7 +44,7 @@ function PostPage() {
   };
 
   return (
-    <div className="App">
+    <div style={{ marginTop: '120px' }} className="App">
       <MyButton style={{ marginTop: 30 }} onClick={() => setModal(true)}>
         Create user
       </MyButton>

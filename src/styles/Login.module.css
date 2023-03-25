@@ -1,14 +1,22 @@
 .content {
   margin-top: 100px;
+  box-shadow: 5px 5px 20px #181616;
+  padding: 10px;
+  background-color: #887171;
 }
 
-.title {
+.logo {
   margin-bottom: 20px;
   text-align: center;
 }
 
+.logo img {
+  width: 350px;
+  height: 350px;
+}
+
 .form {
-  width: 400px;
+  width: 350px;
 }
 
 .inputwrap {

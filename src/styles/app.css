@@ -37,7 +37,10 @@ body {
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  background-color: rgb(231, 186, 160);
+  background-image: url('../img/coffee_background.jpg');
+  background-position: center;
+  background-repeat: repeat;
+  background-attachment: fixed;
 }
 
 input,

@@ -1,8 +1,8 @@
 import React, { useContext } from 'react';
 import { AuthContext } from '../context';
-import MyButton from '../UI/button/MyButton';
-import MyInput from '../UI/input/MyInput';
+import logo from '../img/coffee_logo.jpg';
 import cl from '../styles/Login.module.css';
+import MyInput from '../UI/input/MyInput';
 
 const Login = () => {
   const { isAuth, setIsAuth } = useContext(AuthContext);
@@ -14,7 +14,9 @@ const Login = () => {
 
   return (
     <div className={cl.content}>
-      <h1 className={cl.title}>Sign in page</h1>
+      <h1 className={cl.logo}>
+        <img src={logo} alt="coffehub logo" />
+      </h1>
       <form className={cl.form} onSubmit={login}>
         <div className={cl.inputwrap}>
           <MyInput type="text" placeholder="username" />

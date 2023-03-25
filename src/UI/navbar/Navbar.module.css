@@ -1,10 +1,20 @@
 .navbar {
+  position: absolute;
+  left: 0;
   height: 120px;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 5px 5px 10px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .button {
@@ -13,14 +23,15 @@
   font-size: 19px;
   background-color: inherit;
   border: 1px solid black;
+  margin-right: 30px;
 }
 
-.menu {
+.list {
   display: flex;
 }
 
-.link:not(:last-child) {
-  margin-right: 30px;
+.link {
+  margin-left: 30px;
 }
 
 .link a {
