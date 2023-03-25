@@ -14,9 +14,11 @@ const Login = () => {
 
   return (
     <div className={cl.content}>
-      <h1 className={cl.logo}>
+      <div className={cl.logo}>
         <img src={logo} alt="coffehub logo" />
-      </h1>
+      </div>
+      <h1 className={cl.title}>CoffeeHub</h1>
+      <hr size="3" color="rgb(43, 40, 40)" className={cl.line} />
       <form className={cl.form} onSubmit={login}>
         <div className={cl.inputwrap}>
           <MyInput type="text" placeholder="username" />

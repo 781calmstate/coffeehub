@@ -1,3 +1,17 @@
+.content {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+  box-shadow: 5px 5px 20px #181616;
+}
+
 .title {
   font-size: 50px;
+  line-height: 120%;
+  width: 500px;
+  text-align: center;
+  margin-bottom: 15px;
 }

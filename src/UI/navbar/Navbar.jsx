@@ -12,7 +12,7 @@ const Navbar = () => {
     localStorage.removeItem('auth');
   };
   return (
-    <div style={{ width: '100%' }}>
+    <div>
       <nav className={cl.navbar}>
         <div className={cl.menu}>
           <img src={logo} alt="logo coffee" style={{ height: '110px', width: '115px' }} />
