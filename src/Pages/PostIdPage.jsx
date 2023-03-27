@@ -24,7 +24,7 @@ const PostIdPage = () => {
   }, []);
 
   return (
-    <div style={{ marginTop: '120px' }}>
+    <div style={{ marginTop: '160px' }}>
       {isPostLoading ? (
         <Loader />
       ) : (

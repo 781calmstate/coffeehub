@@ -107,9 +107,15 @@ h6 {
   justify-content: space-between;
   align-items: center;
   padding: 15px;
-  border: 2px solid #f7a9a9;
+  border: 3px solid #8b7e74;
   border-radius: 5px;
   margin-top: 15px;
+  background-color: #eddbc7;
+}
+
+.post__content {
+  font-size: 17px;
+  line-height: 1.5;
 }
 
 .post-enter {
@@ -142,12 +148,19 @@ h6 {
   column-gap: 15px;
 }
 .page {
-  padding: 10px;
-  border: 1px solid #f7a9a9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #753519;
+  border-radius: 3px;
   cursor: pointer;
+  font-size: 17px;
+  font-weight: 600;
 }
 
 .page__current {
-  border: 2px solid orange;
-  font-weight: bold;
+  background-color: #a9907e;
+  color: white;
 }

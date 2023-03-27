@@ -59,7 +59,7 @@ function PostPage() {
           <Loader />
         </div>
       ) : (
-        <PostList remove={removePost} posts={sortedAndSearchedPosts} title="About JS" />
+        <PostList remove={removePost} posts={sortedAndSearchedPosts} title="COFFEE POSTS :)" />
       )}
       <Pagination totalPages={totalPages} page={page} changePage={changePage} />
     </div>
