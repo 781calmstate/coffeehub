@@ -15,6 +15,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  height: 100%;
 }
 
 .button {
@@ -28,14 +29,21 @@
 
 .list {
   display: flex;
+  height: 100%;
 }
 
-.link {
-  margin-left: 30px;
-}
-
-.link a {
+.list_item a {
+  display: flex;
+  align-items: center;
+  padding-left: 60px;
+  padding-right: 60px;
+  height: 100%;
+  text-decoration: none;
   color: black;
-  font-size: 17px;
+  font-size: 20px;
   line-height: 150%;
+}
+
+.active {
+  background-color: orange;
 }
