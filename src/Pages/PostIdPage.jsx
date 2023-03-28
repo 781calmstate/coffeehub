@@ -4,6 +4,7 @@ import PostService from '../API/PostService';
 import { useFetching } from '../hooks/useFetching';
 import Loader from '../UI/loader/Loader';
 import cl from '../styles/PostIdPage.module.css';
+import CommsItem from '../components/CommsItem';
 
 const PostIdPage = () => {
   const params = useParams();
@@ -37,22 +38,7 @@ const PostIdPage = () => {
         </div>
       )}
       <hr size="4" color="rgb(43, 40, 40)" className={cl.line} />
-      {isComsLoading ? (
-        <Loader />
-      ) : (
-        <div>
-          <h1 className={cl.title}>Comments:</h1>
-          {/* decompose */}
-          <div>
-            {coms.map((comm) => (
-              <div className={cl.comm_body} key={comm.id}>
-                <h3 className={cl.comm_title}>{comm.email}</h3>
-                <div className={cl.comm_text}>{comm.body}</div>
-              </div>
-            ))}
-          </div>
-        </div>
-      )}
+      {isComsLoading ? <Loader /> : <CommsItem coms={coms} />}
     </div>
   );
 };
