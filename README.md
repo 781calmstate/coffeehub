@@ -1,3 +1,3 @@
 # CoffeeHub
-[Link](https://781calmstate.github.io/Relvise/
+[Link](https://781calmstate.github.io/coffeehub-react/
 )
